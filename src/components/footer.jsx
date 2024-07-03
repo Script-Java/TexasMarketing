@@ -1,23 +1,19 @@
 import React from "react";
+import logo from '../assets/logo2.png';
+
 
 const Footer = () => {
   return (
-    <div classname>
+    <div className="bg-neutral-900">
       {/* ========== FOOTER ========== */}
-      <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+      <footer className="mt-auto bg-neutral-900 w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
         {/* Grid */}
-        <div className="text-center">
+        <div className="text-center bg-neutral-900">
           <div>
-            <a
-              className="flex-none text-xl font-semibold text-black dark:text-white"
-              href="#"
-              aria-label="Brand"
-            >
-              Brand
-            </a>
+            <img className="w-20 l-20 m-auto" src={logo} alt="" />
           </div>
           {/* End Col */}
-          <div className="mt-3">
+          <div className="mt-3 bg-neutral-900">
             <p className="text-gray-500 dark:text-neutral-500">
               We're part of the{" "}
               <a
@@ -28,7 +24,7 @@ const Footer = () => {
               </a>{" "}
               family.
             </p>
-            <p className="text-gray-500 dark:text-neutral-500">
+            <p className="text-gray-500 bg-neutral-900 dark:text-neutral-500">
               © Preline. 2022 Htmlstream. All rights reserved.
             </p>
           </div>

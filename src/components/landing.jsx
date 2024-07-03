@@ -14,10 +14,10 @@ const Landing = ()=> {
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
             <div className="max-w-2xl text-center mx-auto">
               <p className="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
-                Preline: A vision for 2023
+                TEXAS FIVE STAR MARKETING : TFSM
               </p>
               <div className="mt-5 max-w-2xl">
-                <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
+                <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-7xl dark:text-neutral-200">
                   The Intuitive Web Solutions
                 </h1>
               </div>

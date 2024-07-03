@@ -11,8 +11,8 @@ const HomePage = ()=> {
         <div className="">
             <Navbar></Navbar>
             <Landing></Landing>
-            <Stats></Stats>
             <Portfolio></Portfolio>
+            <Stats></Stats>
             <Footer></Footer>
         </div>
     )

@@ -1,10 +1,9 @@
-import Navbar from "./components/navbar"
-import HomePage from "./pages/home"
+import React from 'react';
 
-export default function App() {
+function App() {
   return (
-   <div className="">
-      <HomePage></HomePage>
-   </div>
-  )
+    <div className=""></div>
+  );
 }
+
+export default App;

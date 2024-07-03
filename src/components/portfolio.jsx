@@ -2,11 +2,13 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div className="">
+    <div className="bg-neutral-900">
+      
       {/* Card Blog */}
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] bg-neutral-900 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         {/* Grid */}
-        <div className="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
+        <h2 className="text-white text-2xl sm:text-3xl lg:text-4xl p-8 text-center">Our Portfolio</h2>
+        <div className="grid lg:grid-cols-2 p-4 lg:gap-y-16 gap-10">
           {/* Card */}
           <a className="group rounded-xl overflow-hidden" href="#">
             <div className="sm:flex">

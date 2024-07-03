@@ -4,11 +4,11 @@ const Stats = () => {
   return (
     <div classname>
       {/* Testimonials */}
-      <div className="overflow-hidden bg-gray-800 dark:bg-neutral-950">
+      <div className="overflow-hidden  bg-neutral-900">
         <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           {/* Title */}
-          <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
+          <div className="max-w-2xl m-auto w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
+            <h2 className="text-2xl text-center m-auto sm:text-3xl lg:text-4xl text-white font-semibold">
               Loved by business and individuals across the globe
             </h2>
           </div>
@@ -184,7 +184,7 @@ const Stats = () => {
         </div>
       </div>
       {/* End Testimonials */}
-      {"{"}/* End Stats */{"}"}
+  
     </div>
   );
 };
